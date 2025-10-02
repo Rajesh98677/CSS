@@ -1,0 +1,92 @@
+#container
+{
+   
+    flex-direction: column;
+    background-color: black;
+    display:inline-flex;
+    gap:5px;
+    padding:5px;
+    /* width:510px; */
+}
+
+.first
+{  background-color: blue;
+    width:500px;
+    height:100px;
+
+}
+.second
+{ 
+      display:flex;
+      flex-direction: row;
+    gap:5px;
+    
+}
+
+.third
+{ 
+    background-color: blue;
+    width: 500px;
+    height:100px;
+}
+
+/* .fifth
+{  
+    background-color: blueviolet;
+    width:300px;
+    height:400px;
+    margin:5px;
+} */
+/* .fourth
+{
+    background-color: brown ;
+    margin:5px;
+    width:100px;
+    height:400px;
+} */
+ .child
+ {
+   
+     
+
+ }
+ .one
+ {     background-color: cyan;
+      display:inline;
+    width:100px;
+    height:400px;
+ }
+.two
+{     
+    display:flex;
+    flex-direction: column;
+    width:395px;
+    height:400px;
+    gap:5px;
+
+}
+.three
+{
+    background-color: brown;
+    height:197.5px;
+    width:395px;
+    
+}
+.four
+{
+    display:flex;
+    height:197.5px;
+    width:395px;
+    gap:5px;
+}
+.five
+{   background-color: cadetblue;
+    width:195px;
+    height:197.5px;
+}
+.six
+{background-color: darkgreen;
+    width:195px;
+    height:197.5px;
+
+}

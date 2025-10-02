@@ -1,0 +1,46 @@
+body{
+    background-color: black;
+    height: 100vh;
+}
+*{
+ margin: 0;
+padding: 0;
+}
+
+.container
+{    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    height:400px;
+    width:500px;
+    gap:5px;
+    padding: 5px;
+}
+.one
+{
+    background-color: cyan;
+    grid-column-start:1 ;
+    grid-column-end:4;
+    
+}
+.two
+{ grid-row: 2/4;
+    background-color: blue;
+}
+.three
+{  grid-column: 2/4; 
+    background-color: rgb(26, 111, 181);
+}
+.four
+{
+    background-color: pink;
+}
+.five
+{
+    background-color: brown;
+}
+.six
+{  grid-column: 1/4;
+    background-color: aqua;
+}
