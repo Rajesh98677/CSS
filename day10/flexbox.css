@@ -1,0 +1,51 @@
+#container
+{
+    background-color:antiquewhite ;
+    display:flex; 
+/* flex-di  rection:column;  by default row also we can use row reverse column reverse */
+height:600px;
+    /* justify-content:center; justify content works for main axis only */
+    justify-content: center;
+    /* justify-content:end; */
+    /* justify-content:start; */
+    /* justify-content:space-between; */
+    /* justify-content:space-around; */
+    /* justify-content:space-evenly; */
+    /* align item works around cross axis */
+    align-items:center;
+    /* flex-wrap is used to make the site responsive */
+    flex-wrap:wrap; 
+    /* we can use gap instead of margin in  child */
+    gap:2px;
+}
+.box
+{
+    height:100px;
+    width:100px;
+    /* margin:5px; */
+}
+.first
+{
+    background-color: orange;
+    /* flex-group occupy whole space to the contet by default 0; */
+    /* flex-grow:1; */
+    /* flex-basis increases the  widht around the main axis */
+    /* flex-basis: 200px; */
+
+}
+.second
+{
+    background-color: green;
+    /* flex-grow:2; */
+    /* flex-shrink: 10; */
+}
+.third
+{   
+    background-color:red;
+    align-self: flex-start;
+}
+
+.fourth
+{
+    background-color: brown;
+}
