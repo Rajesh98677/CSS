@@ -1,0 +1,35 @@
+h2{
+    background-color:yellow;
+    position:relative;
+     left:200px;
+     /* top:100px; */
+     display:inline-block
+    /*bottom:50px;*/
+} 
+h3{ 
+    background-color: pink;
+    position:fixed;
+    top:0px;
+    left:200px;
+    z-index: 10;
+
+}
+*{
+    padding:0px;
+    margin:0px;
+}
+div{
+    /* position:relative; */
+    top:100px; 
+}
+h4{ display:inline-block;
+    background-color: aliceblue;
+    position:absolute;
+    top:10px;
+     
+}
+span{
+    background:red;
+    position:sticky;
+    top:20px;
+}
