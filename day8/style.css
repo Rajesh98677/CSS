@@ -1,0 +1,40 @@
+/* h1{
+    background-color:cyan;
+}
+/* id based selection */
+
+/* #exercise{
+    background-color:blue;
+}
+/* class based selection */
+
+/* .veg{
+    font-display:green;
+    background-color: green;
+} */
+/* .nonveg{
+    font-display: RED;
+    background-color: red; 
+} */
+
+/* group based selection */
+/* h1,.veg,footer{
+ background-color: rgba(24, 97, 162,6);
+} */
+/* different  color forms */
+/* h2{
+    background-color: hsl(29,44%,50%,0.6);
+} */
+/* px->pixel elements(it can't be converted into cm and m or inches in anything */
+/* h2{
+    background-color: #98ab44;
+    font-size: 50px;
+} */
+ h2{
+      font-family: "Bitcount Prop Single Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 20px;
+  font-style: normal;
+  
+
+ }
